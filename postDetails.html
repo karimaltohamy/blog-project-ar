@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/bootstrap.js"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper.css" />
+  </head>
+  <body>
+    <!-- start mini header -->
+    <div class="mini_header">
+      <div class="container">
+        <div class="line">
+          <div class="left">
+            <div class="lang_list">
+              <div class="head">
+                <img src="images/ar-lang.svg" alt="lang-img" loading="lazy" />
+                <span>عربي</span>
+              </div>
+              <div class="list">
+                <div class="item">
+                  <img src="images/en-lang.svg" alt="lang-img" loading="lazy" />
+                  <span>English</span>
+                </div>
+                <div class="item">
+                  <img src="images/ar-lang.svg" alt="lang-img" loading="lazy" />
+                  <span>عربي</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="social_media">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end mini header -->
+
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h3>Logo</h3>
+        </div>
+
+        <div class="links">
+          <a href="index.html" class="link">الرئيسيه</a>
+          <a href="about-us.html" class="link">من نحن</a>
+          <div class="link_list">
+            <div class="link active">
+              الاقسام
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+
+            <div class="list">
+              <a href="category.html" class="item">تكنولوجيا</a>
+              <a href="category.html" class="item">رياده الاعمال</a>
+              <a href="category.html" class="item">Market</a>
+              <a href="category.html" class="item">Life Style</a>
+            </div>
+          </div>
+
+          <a href="contact-us.html" class="link">تواصل معنا</a>
+        </div>
+
+        <div class="info_header">
+          <a href="contact-us.html" class="btn_contact">تواصل معنا</a>
+          <span class="btn_menu icon_menu">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start menu mobile -->
+    <div class="overflow"></div>
+    <div class="menu_mobile">
+      <div class="head">
+        <img src="images/logo.svg" alt="" />
+
+        <i class="fa-solid fa-xmark btn_close_menu"></i>
+      </div>
+      <div class="links">
+        <div class="links">
+          <a href="index.html" class="link">الرئيسيه</a>
+          <a href="about-us.html" class="link">من نحن</a>
+          <div class="link_list">
+            <div class="link active">
+              الاقسام
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+
+            <div class="list">
+              <a href="category.html" class="item">تكنولوجيا</a>
+              <a href="category.html" class="item">رياده الاعمال</a>
+              <a href="category.html" class="item">Market</a>
+              <a href="category.html" class="item">Life Style</a>
+            </div>
+          </div>
+          <a href="contact-us.html" class="link">تواصل معنا</a>
+        </div>
+      </div>
+      <a href="applications.html" class="btn_contact">تواصل معنا</a>
+    </div>
+    <!-- end menu mobile -->
+
+    <!-- start post details section -->
+    <div class="post_details_section">
+      <div class="head_post">
+        <div class="content">
+          <div class="type">الصحة</div>
+          <h3 class="title">أفكار تصوير إبداعية من الأجهزة الذكية</h3>
+          <div class="details">
+            <div class="author">
+              <img src="images/author.png" alt="author" />
+              <span>احمد ممحمد</span>
+            </div>
+            <div class="date">
+              <i class="fa-regular fa-clock"></i>
+              <span> 23 ديسمبر 2016</span>
+            </div>
+            <div class="comments">
+              <i class="fa-regular fa-comment"></i>
+              <span>0 comment</span>
+            </div>
+            <div class="view">
+              <i class="fa-regular fa-eye"></i>
+              <span>5k</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="line">
+          <div class="left">
+            <p class="desc">
+              هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية
+              تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى
+              النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق
+              أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في
+              هذا النص. بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت
+              على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما تتطلبه
+              الحاجة، يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي على أكثر من
+              200 كلمة لا تينية، مضاف إليها مجموعة من الجمل النموذجية، لتكوين نص
+              لوريم إيبسوم ذو شكل منطقي قريب إلى النص الحقيقي. وبالتالي يكون
+              النص الناتح خالي من التكرار، أو أي كلمات أو عبارات غير لائقة أو ما
+              شابه. وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على الإنترنت.
+            </p>
+            <blockquote>
+              <p>
+                أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في
+                هذا النص. بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت
+                على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما
+                تتطلبه الحاجة، يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي على
+                أكثر من 200 كلمة لا تينية، مضاف إليها مجموعة من الجمل النموذجية،
+                لتكوين نص
+              </p>
+            </blockquote>
+            <h4 class="title">تركز على المستقبل</h4>
+            <p class="desc">
+              بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على إعادة
+              تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما تتطلبه الحاجة،
+              يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي على أكثر من 200 كلمة
+              لا تينية، مضاف إليها مجموعة من الجمل النموذجية، لتكوين نص لوريم
+              النص الناتح خالي من التكرار، أو أي كلمات أو عبارات غير لائقة أو ما
+              شابه. وهذا ما يجعله أول مولّد نص لوريم إيبسوم حقيقي على الإنترنت.
+            </p>
+            <p class="desc">
+              النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق
+              أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في
+              هذا النص. بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت
+              على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما تتطلبه
+              الحاجة، يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي على أكثر من.
+            </p>
+            <div class="images">
+              <img src="images/post11.jpg" alt="img" loading="lazy" />
+              <img src="images/post12.jpg" alt="img" loading="lazy" />
+              <img src="images/post13.jpg" alt="img" loading="lazy" />
+            </div>
+            <h4 class="title">اتخاذ قرارات أفضل بخصوص رياده</h4>
+            <p class="desc">
+              ختلف إستراتيجيات حملات البريد الإلكتروني ، لكن نشرة البريد
+              الإلكتروني تكمن في قلب كل منها. إنه نوع من المُقرر: ما إذا كان ملف
+              القراء سيعودون أو يتخلون عنك أنت وشركتك. لكن تأكد أن كل رسالة
+              إخبارية بالبريد الإلكتروني تبدو ممتعة وغير مزعجة. تختلف
+              إستراتيجيات حملات البريد الإلكتروني ، لكن نشرة البريد الإلكتروني
+              تكمن في قلب كل منها. إنه نوع من المُقرر: ما إذا كان ملف القراء
+              سيعودون أو يتخلون عنك أنت وشركتك. لكن تأكد أن كل رسالة إخبارية
+              بالبريد الإلكتروني تبدو ممتعة وغير مزعجة.
+            </p>
+            <p class="desc">
+              نحن نتطلع إلى ما وراء مرحلة التفكير ، على أقل تقدير ، إلى الإصدار
+              التجريبي ، وللشركات الجاهزة للشركات. تجار التجزئة يريدون أن يروا
+              كل ذلك ، لذا فهم عادةً لم يحددوا بدقة تقنية واحدة يريدون التركيز
+              عليه. البحث البصري و fit-tech بالتأكيد اتجاهات.
+            </p>
+            <h4 class="title">ابدء</h4>
+            <p class="desc">
+              هذا لأنه على الرغم من تقارير أرباحها غير الملائمة خلال الفترة
+              الماضية خمس سنوات ، ذكرت Synergy Research أن IBM تمتلك 7 في المائة
+              من سوق البنية التحتية السحابية في أحدث تقرير لها ، والذي تعرف
+              بأنها البنية التحتية.
+            </p>
+            <div class="tages">
+              <a href="#"> مفامرة </a>
+              <a href="#"> مدونه </a>
+              <a href="#"> رياده الاعمال </a>
+              <a href="#"> الناس </a>
+              <a href="#"> رحله </a>
+            </div>
+
+            <div class="author_post">
+              <img src="images/author2.jpg" alt="author" loading="lazy" />
+              <div class="text">
+                <h5>احمد محمد</h5>
+                <span>نبذة عن الكاتب</span>
+                <p class="author_desc">
+                  يأتي الجانب الوظيفي أولاً في عملية العمل لأنه إنه جوهر الشيء:
+                  ما هو الغرض منه؟ شئ ما آخر؟ يأتي الشكل والملمس والمواد بعد
+                  ذلك.
+                </p>
+              </div>
+            </div>
+
+            <div class="write_comment">
+              <h5>اترك رد</h5>
+              <p>
+                لن يتم نشر عنوان بريدك الإلكتروني. الحقول المطلوبة هي ملحوظ *
+              </p>
+
+              <form action="">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="input">
+                      <textarea
+                        name=""
+                        placeholder="تعليق
+"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input">
+                      <input type="text" placeholder="الاسم الكامل" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input">
+                      <input
+                        type="email"
+                        placeholder="عنوان البريد الإلكتروني"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="input">
+                      <input type="text" placeholder="URL الويب" />
+                    </div>
+                  </div>
+                </div>
+                <button class="btn_submit">أضف تعليقا</button>
+              </form>
+            </div>
+
+            <div class="related_boxs">
+              <h4 class="title_section">المنشورات ذات الصلة</h4>
+              <div class="boxs">
+                <a href="postDetails.html" class="box">
+                  <div class="image">
+                    <img src="images/post10.jpg" alt="post" loading="lazy" />
+                  </div>
+                  <div class="text">
+                    <div class="type">الهاتف</div>
+                    <h4 class="title_box">
+                      مراجعة Oppo Find X2 Pro: الهاتف الذكي الخارق
+                    </h4>
+                    <div class="details">
+                      <div class="author">
+                        <img src="images/author.png" alt="author" />
+                        <span>احمد ممحمد</span>
+                      </div>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span> 23 ديسمبر 2016</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="postDetails.html" class="box">
+                  <div class="image">
+                    <img src="images/post11.jpg" alt="post" loading="lazy" />
+                  </div>
+                  <div class="text">
+                    <div class="type">الهاتف</div>
+                    <h4 class="title_box">
+                      مراجعة Oppo Find X2 Pro: الهاتف الذكي الخارق
+                    </h4>
+                    <div class="details">
+                      <div class="author">
+                        <img src="images/author.png" alt="author" />
+                        <span>احمد ممحمد</span>
+                      </div>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span> 23 ديسمبر 2016</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="postDetails.html" class="box">
+                  <div class="image">
+                    <img src="images/post7.jpg" alt="post" loading="lazy" />
+                  </div>
+                  <div class="text">
+                    <div class="type">الهاتف</div>
+                    <h4 class="title_box">
+                      مراجعة Oppo Find X2 Pro: الهاتف الذكي الخارق
+                    </h4>
+                    <div class="details">
+                      <div class="author">
+                        <img src="images/author.png" alt="author" />
+                        <span>احمد ممحمد</span>
+                      </div>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span> 23 ديسمبر 2016</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="recent_posts">
+              <h3 class="boxs_title">المشاركات الاخيرة</h3>
+              <div class="boxs">
+                <a href="#" class="box">
+                  <div class="text">
+                    <div class="type">تطبيقات</div>
+                    <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                    <div class="date">
+                      <i class="fa-regular fa-clock"></i>
+                      <span> 23 ديسمبر 2016</span>
+                    </div>
+                  </div>
+                  <div class="image">
+                    <img src="images/post2.jpg" alt="post" loading="lazy" />
+                  </div>
+                </a>
+                <a href="#" class="box">
+                  <div class="text">
+                    <div class="type">تطبيقات</div>
+                    <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                    <div class="date">
+                      <i class="fa-regular fa-clock"></i>
+                      <span> 23 ديسمبر 2016</span>
+                    </div>
+                  </div>
+                  <div class="image">
+                    <img src="images/post3.jpg" alt="post" loading="lazy" />
+                  </div>
+                </a>
+                <a href="#" class="box">
+                  <div class="text">
+                    <div class="type">تطبيقات</div>
+                    <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                    <div class="date">
+                      <i class="fa-regular fa-clock"></i>
+                      <span> 23 ديسمبر 2016</span>
+                    </div>
+                  </div>
+                  <div class="image">
+                    <img src="images/post4.jpg" alt="post" loading="lazy" />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="recent_post_large">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div class="content">
+                        <div class="type">الصحة</div>
+                        <h3 class="title">
+                          أفكار تصوير إبداعية من الأجهزة الذكية
+                        </h3>
+                        <div class="details">
+                          <div class="author">
+                            <img src="images/author.png" alt="author" />
+                            <span>احمد ممحمد</span>
+                          </div>
+                          <div class="date">
+                            <i class="fa-regular fa-clock"></i>
+                            <span> 23 ديسمبر 2016</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div class="content">
+                        <div class="type">الصحة</div>
+                        <h3 class="title">
+                          أفكار تصوير إبداعية من الأجهزة الذكية
+                        </h3>
+                        <div class="details">
+                          <div class="author">
+                            <img src="images/author.png" alt="author" />
+                            <span>احمد ممحمد</span>
+                          </div>
+                          <div class="date">
+                            <i class="fa-regular fa-clock"></i>
+                            <span> 23 ديسمبر 2016</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div class="content">
+                        <div class="type">الصحة</div>
+                        <h3 class="title">
+                          أفكار تصوير إبداعية من الأجهزة الذكية
+                        </h3>
+                        <div class="details">
+                          <div class="author">
+                            <img src="images/author.png" alt="author" />
+                            <span>احمد ممحمد</span>
+                          </div>
+                          <div class="date">
+                            <i class="fa-regular fa-clock"></i>
+                            <span> 23 ديسمبر 2016</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end post details section -->
+
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+        <div class="footer_top">
+          <h4>تابعنا</h4>
+          <div class="social_media">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="info">
+            <div class="logo">
+              <h3>Logo</h3>
+            </div>
+            <div class="links">
+              <a href="contact.html" class="link">تواصل معنا</a>
+              <a href="about-us.html" class="link">من نحن</a>
+              <a href="privacy-policy.html" class="link">سياسة الخصوصية</a>
+            </div>
+          </div>
+          <p>© 2022. جميع الحقوق محفوظة 5Code.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footr -->
+
+    <script src="js/main.js"></script>
+    <script src="js/swiper.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

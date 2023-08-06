@@ -1,0 +1,45 @@
+@use "../components/header";
+@use "../components/footer";
+@use "../pages/index";
+@use "../pages/category";
+@use "../pages/post-details";
+@use "../pages/contact";
+@use "../pages/about-us";
+@use "../pages/privacy-policy";
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden !important;
+  direction: rtl;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Cairo", sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+svg {
+  width: 20px;
+}

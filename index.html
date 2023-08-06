@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/bootstrap.js"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper.css" />
+  </head>
+  <body>
+    <!-- start mini header -->
+    <div class="mini_header">
+      <div class="container">
+        <div class="line">
+          <div class="left">
+            <div class="lang_list">
+              <div class="head">
+                <img src="images/ar-lang.svg" alt="lang-img" loading="lazy" />
+                <span>عربي</span>
+              </div>
+              <div class="list">
+                <div class="item">
+                  <img src="images/en-lang.svg" alt="lang-img" loading="lazy" />
+                  <span>English</span>
+                </div>
+                <div class="item">
+                  <img src="images/ar-lang.svg" alt="lang-img" loading="lazy" />
+                  <span>عربي</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="social_media">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end mini header -->
+
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h3>Logo</h3>
+        </div>
+
+        <div class="links">
+          <a href="index.html" class="link active">الرئيسيه</a>
+          <a href="about-us.html" class="link">من نحن</a>
+          <div class="link_list">
+            <div class="link">
+              الاقسام
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+
+            <div class="list">
+              <a href="category.html" class="item">تكنولوجيا</a>
+              <a href="category.html" class="item">رياده الاعمال</a>
+              <a href="category.html" class="item">Market</a>
+              <a href="category.html" class="item">Life Style</a>
+            </div>
+          </div>
+          <a href="contact-us.html" class="link">تواصل معنا</a>
+        </div>
+
+        <div class="info_header">
+          <a href="contact-us.html" class="btn_contact">تواصل معنا</a>
+          <span class="btn_menu icon_menu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start menu mobile -->
+    <div class="overflow"></div>
+    <div class="menu_mobile">
+      <div class="head">
+        <img src="images/logo.svg" alt="" />
+
+        <i class="fa-solid fa-xmark btn_close_menu"></i>
+      </div>
+      <div class="links">
+        <div class="links">
+          <a href="index.html" class="link active">الرئيسيه</a>
+          <a href="about-us.html" class="link">من نحن</a>
+          <div class="link_list">
+            <div class="link">
+              الاقسام
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+
+            <div class="list">
+              <a href="#" class="item">تكنولوجيا</a>
+              <a href="#" class="item">رياده الاعمال</a>
+              <a href="#" class="item">Market</a>
+              <a href="#" class="item">Life Style</a>
+            </div>
+          </div>
+          <a href="contact-us.html" class="link">تواصل معنا</a>
+        </div>
+      </div>
+      <a href="applications.html" class="btn_contact">تواصل معنا</a>
+    </div>
+    <!-- end menu mobile -->
+
+    <!-- start hero section -->
+    <div class="hero_section">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="item">
+              <div class="content">
+                <div class="type">الصحة</div>
+                <h3 class="title">أفكار تصوير إبداعية من الأجهزة الذكية</h3>
+                <div class="details">
+                  <div class="author">
+                    <img src="images/author.png" alt="author" />
+                    <span>احمد ممحمد</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i>
+                    <span> 23 ديسمبر 2016</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <div class="content">
+                <div class="type">الصحة</div>
+                <h3 class="title">أفكار تصوير إبداعية من الأجهزة الذكية</h3>
+                <div class="details">
+                  <div class="author">
+                    <img src="images/author.png" alt="author" />
+                    <span>احمد ممحمد</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i>
+                    <span> 23 ديسمبر 2016</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <div class="content">
+                <div class="type">الصحة</div>
+                <h3 class="title">أفكار تصوير إبداعية من الأجهزة الذكية</h3>
+                <div class="details">
+                  <div class="author">
+                    <img src="images/author.png" alt="author" />
+                    <span>احمد ممحمد</span>
+                  </div>
+                  <div class="date">
+                    <i class="fa-regular fa-clock"></i>
+                    <span> 23 ديسمبر 2016</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- end hero section -->
+
+    <div class="ad_space">
+      <h6>Ad space</h6>
+    </div>
+
+    <!-- start Trending Topics -->
+    <div class="trending_topics">
+      <div class="container">
+        <h3 class="title">الموضوعات الشائعة</h3>
+
+        <div class="boxs">
+          <a href="#" class="box">
+            <img src="images/trending1.jpg" alt="trending" loading="lazy" />
+            <div class="text">
+              <h3>تكنولوجيا</h3>
+            </div>
+          </a>
+          <a href="#" class="box">
+            <img src="images/trending2.jpg" alt="trending" loading="lazy" />
+            <div class="text">
+              <h3>الهاتف</h3>
+            </div>
+          </a>
+          <a href="#" class="box">
+            <img src="images/trending3.jpg" alt="trending" loading="lazy" />
+            <div class="text">
+              <h3>ايفون</h3>
+            </div>
+          </a>
+          <a href="#" class="box">
+            <img src="images/trending4.jpg" alt="trending" loading="lazy" />
+            <div class="text">
+              <h3>ابتكار</h3>
+            </div>
+          </a>
+          <a href="#" class="box">
+            <img src="images/trending5.jpg" alt="trending" loading="lazy" />
+            <div class="text">
+              <h3>رقمي</h3>
+            </div>
+          </a>
+          <a href="#" class="box">
+            <img src="images/trending6.jpg" alt="trending" loading="lazy" />
+            <div class="text">
+              <h3>إمكانية الوصول</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end Trending Topics -->
+
+    <!-- start main Content page -->
+    <div class="main_content_page">
+      <div class="container">
+        <div class="line">
+          <div class="left">
+            <div class="videos_category">
+              <div class="swiper swiper_videos">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="item">
+                      <div class="icon_play">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"
+                          />
+                        </svg>
+                      </div>
+                      <div class="content">
+                        <div class="type">الصحة</div>
+                        <h3 class="title">
+                          أفكار تصوير إبداعية من الأجهزة الذكية
+                        </h3>
+                        <div class="details">
+                          <div class="author">
+                            <img src="images/author.png" alt="author" />
+                            <span>احمد ممحمد</span>
+                          </div>
+                          <div class="date">
+                            <i class="fa-regular fa-clock"></i>
+                            <span> 23 ديسمبر 2016</span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="item">
+                      <div class="icon_play">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"
+                          />
+                        </svg>
+                      </div>
+                      <div class="content">
+                        <div class="type">الصحة</div>
+                        <h3 class="title">
+                          أفكار تصوير إبداعية من الأجهزة الذكية
+                        </h3>
+                        <div class="details">
+                          <div class="author">
+                            <img src="images/author.png" alt="author" />
+                            <span>احمد ممحمد</span>
+                          </div>
+                          <div class="date">
+                            <i class="fa-regular fa-clock"></i>
+                            <span> 23 ديسمبر 2016</span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="item">
+                      <div class="icon_play">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"
+                          />
+                        </svg>
+                      </div>
+                      <div class="content">
+                        <div class="type">الصحة</div>
+                        <h3 class="title">
+                          أفكار تصوير إبداعية من الأجهزة الذكية
+                        </h3>
+                        <div class="details">
+                          <div class="author">
+                            <img src="images/author.png" alt="author" />
+                            <span>احمد ممحمد</span>
+                          </div>
+                          <div class="date">
+                            <i class="fa-regular fa-clock"></i>
+                            <span> 23 ديسمبر 2016</span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+
+            <div class="reader_comments">
+              <h4 class="title">مشاركات القراء</h4>
+              <div class="items">
+                <div class="item">
+                  <p class="text_comment">
+                    "جوش جاكوار النعامة السمان أحدهم متحمس ، مرحبًا ومقيدًا ،
+                    وطارد الطريق الأخلاقي اللطيف خفقان الوشق بعيدًا عن ذلك ،
+                    وضحكت سيارات الجيب بعيدًا وبعيدًا."
+                  </p>
+                  <div class="profile">
+                    <img src="images/author.png" alt="img" loading="lazy" />
+                    <div class="text">
+                      <h6>جورج أورويل</h6>
+                      <span>17 أبريل 2023</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <p class="text_comment">
+                    "جوش جاكوار النعامة السمان أحدهم متحمس ، مرحبًا ومقيدًا ،
+                    وطارد الطريق الأخلاقي اللطيف خفقان الوشق بعيدًا عن ذلك ،
+                    وضحكت سيارات الجيب بعيدًا وبعيدًا."
+                  </p>
+                  <div class="profile">
+                    <img src="images/author.png" alt="img" loading="lazy" />
+                    <div class="text">
+                      <h6>جورج أورويل</h6>
+                      <span>17 أبريل 2023</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <p class="text_comment">
+                    "جوش جاكوار النعامة السمان أحدهم متحمس ، مرحبًا ومقيدًا ،
+                    وطارد الطريق الأخلاقي اللطيف خفقان الوشق بعيدًا عن ذلك ،
+                    وضحكت سيارات الجيب بعيدًا وبعيدًا."
+                  </p>
+                  <div class="profile">
+                    <img src="images/author.png" alt="img" loading="lazy" />
+                    <div class="text">
+                      <h6>جورج أورويل</h6>
+                      <span>17 أبريل 2023</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="category">
+              <h4 class="title">قضايا اللاجئين</h4>
+              <div class="line_category">
+                <div class="boxs">
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post1.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post2.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post3.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post4.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main_box">
+                  <div class="image">
+                    <img src="images/post11.jpg" alt="post" loading="lazy" />
+                  </div>
+                  <div class="text">
+                    <div class="type">سياسه</div>
+                    <div class="details">
+                      <div class="author">
+                        <img src="images/author.png" alt="author" />
+                        <span>احمد ممحمد</span>
+                      </div>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span> 23 ديسمبر 2016</span>
+                      </div>
+                    </div>
+                    <h3 class="box_title">طرق سهلة لتعلم كل شيء عن البناء</h3>
+                    <p class="desc">
+                      اللغات الأوروبية أعضاء في نفس العائلة. وجودهم المفصول هو
+                      اسطورة. للعلم والموسيقى رياضة ، إلخ ، ...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="category">
+              <h4 class="title">سياسه</h4>
+              <div class="line_category">
+                <div class="boxs">
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post6.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post7.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post8.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post9.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main_box">
+                  <div class="image">
+                    <img src="images/post13.jpg" alt="post" loading="lazy" />
+                  </div>
+                  <div class="text">
+                    <div class="type">سياسه</div>
+                    <div class="details">
+                      <div class="author">
+                        <img src="images/author.png" alt="author" />
+                        <span>احمد ممحمد</span>
+                      </div>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span> 23 ديسمبر 2016</span>
+                      </div>
+                    </div>
+                    <h3 class="box_title">طرق سهلة لتعلم كل شيء عن البناء</h3>
+                    <p class="desc">
+                      اللغات الأوروبية أعضاء في نفس العائلة. وجودهم المفصول هو
+                      اسطورة. للعلم والموسيقى رياضة ، إلخ ، ...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="category">
+              <h4 class="title">اليونان بالعربي</h4>
+              <div class="line_category">
+                <div class="boxs">
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post6.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post7.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post8.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post9.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <h4 class="box_title">يجلس هنا في انتظارك تعال إلي</h4>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>23 ديسمبر 2016 </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main_box">
+                  <div class="image">
+                    <img src="images/post13.jpg" alt="post" loading="lazy" />
+                  </div>
+                  <div class="text">
+                    <div class="type">سياسه</div>
+                    <div class="details">
+                      <div class="author">
+                        <img src="images/author.png" alt="author" />
+                        <span>احمد ممحمد</span>
+                      </div>
+                      <div class="date">
+                        <i class="fa-regular fa-clock"></i>
+                        <span> 23 ديسمبر 2016</span>
+                      </div>
+                    </div>
+                    <h3 class="box_title">طرق سهلة لتعلم كل شيء عن البناء</h3>
+                    <p class="desc">
+                      اللغات الأوروبية أعضاء في نفس العائلة. وجودهم المفصول هو
+                      اسطورة. للعلم والموسيقى رياضة ، إلخ ، ...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end main content page -->
+
+    <!-- start social media section -->
+    <div class="social_media_section">
+      <div class="container">
+        <h3 class="title">سوشيال ميديا</h3>
+        <div class="line">
+          <div class="ad-space">مساحه اعلانيه</div>
+          <div class="boxs">
+            <div class="swiper swiper_posts">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post11.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <div class="type">سياسه</div>
+                      <div class="details">
+                        <div class="author">
+                          <img src="images/author.png" alt="author" />
+                          <span>احمد ممحمد</span>
+                        </div>
+                        <div class="date">
+                          <i class="fa-regular fa-clock"></i>
+                          <span> 23 ديسمبر 2016</span>
+                        </div>
+                      </div>
+                      <h3 class="box_title">طرق سهلة لتعلم كل شيء عن البناء</h3>
+                      <p class="desc">
+                        اللغات الأوروبية أعضاء في نفس العائلة. وجودهم المفصول هو
+                        اسطورة. للعلم والموسيقى رياضة ، إلخ ، ...
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post11.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <div class="type">سياسه</div>
+                      <div class="details">
+                        <div class="author">
+                          <img src="images/author.png" alt="author" />
+                          <span>احمد ممحمد</span>
+                        </div>
+                        <div class="date">
+                          <i class="fa-regular fa-clock"></i>
+                          <span> 23 ديسمبر 2016</span>
+                        </div>
+                      </div>
+                      <h3 class="box_title">طرق سهلة لتعلم كل شيء عن البناء</h3>
+                      <p class="desc">
+                        اللغات الأوروبية أعضاء في نفس العائلة. وجودهم المفصول هو
+                        اسطورة. للعلم والموسيقى رياضة ، إلخ ، ...
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="postDetails.html" class="box">
+                    <div class="image">
+                      <img src="images/post11.jpg" alt="post" loading="lazy" />
+                    </div>
+                    <div class="text">
+                      <div class="type">سياسه</div>
+                      <div class="details">
+                        <div class="author">
+                          <img src="images/author.png" alt="author" />
+                          <span>احمد ممحمد</span>
+                        </div>
+                        <div class="date">
+                          <i class="fa-regular fa-clock"></i>
+                          <span> 23 ديسمبر 2016</span>
+                        </div>
+                      </div>
+                      <h3 class="box_title">طرق سهلة لتعلم كل شيء عن البناء</h3>
+                      <p class="desc">
+                        اللغات الأوروبية أعضاء في نفس العائلة. وجودهم المفصول هو
+                        اسطورة. للعلم والموسيقى رياضة ، إلخ ، ...
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+          <div class="ad-space">مساحه اعلانيه</div>
+        </div>
+      </div>
+    </div>
+    <!-- end social media section -->
+
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+        <div class="footer_top">
+          <h4>تابعنا</h4>
+          <div class="social_media">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="info">
+            <div class="logo">
+              <h3>Logo</h3>
+            </div>
+            <div class="links">
+              <a href="contact.html" class="link">تواصل معنا</a>
+              <a href="about-us.html" class="link">من نحن</a>
+              <a href="privacy-policy.html" class="link">سياسة الخصوصية</a>
+            </div>
+          </div>
+          <p>© 2022. جميع الحقوق محفوظة 5Code.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footr -->
+
+    <script src="js/main.js"></script>
+    <script src="js/swiper.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      var swiper = new Swiper(".swiper_videos", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      var swiper = new Swiper(".swiper_posts", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
