@@ -5,7 +5,7 @@ $dark-color: #0e0d16;
 .mini_header {
   padding: 5px 0;
   background: $primary-color;
-  background: linear-gradient(144deg, #0d5eaf, #5b42f3 50%, #00ddeb);
+  background: $primary-color;
   color: white;
 
   .line {
@@ -167,6 +167,9 @@ header {
     justify-content: space-between;
 
     .logo {
+      h3 {
+        font-size: 40px;
+      }
       img {
         width: 75px;
       }
@@ -254,7 +257,7 @@ header {
       }
 
       .btn_contact {
-        background: linear-gradient(144deg, #405fff, #5b42f3 50%, #00ddeb);
+        background: linear-gradient(144deg, #0d5eaf, #2d84dc 50%, #00ddeb);
         color: white;
         font-weight: 500;
         border: none;
