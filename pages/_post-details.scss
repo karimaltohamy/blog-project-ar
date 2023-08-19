@@ -461,7 +461,7 @@ $dark-color: #0e0d16;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                color: white;
+                color: white !important;
                 position: relative;
 
                 &::before {
