@@ -43,6 +43,12 @@ footer {
     gap: 10px;
     padding: 25px 0;
 
+    .logo {
+      img {
+        width: 100px;
+      }
+    }
+
     .info {
       display: flex;
       align-items: center;
